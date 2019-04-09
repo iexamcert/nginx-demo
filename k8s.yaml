@@ -25,12 +25,12 @@ metadata:
   namespace: default
   labels:
     app: nginx
-  spec:
-    selector:
-      app: nginx-demo
-    type: NodePort
-    ports:
-    - name: web
-      port: 80
-      targetPort: 80
-      nodePort: 30003
+spec:
+  selector:
+    app: nginx-demo
+  type: NodePort
+  ports:
+  - name: web
+    port: 80
+    targetPort: 80
+    nodePort: 30003
