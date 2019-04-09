@@ -4,6 +4,7 @@ metadata:
   name: nginx-demo
   namespace: default
 spec:
+  replicas: 2
   template:
     metadata:
       labels:
