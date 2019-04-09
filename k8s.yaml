@@ -33,4 +33,5 @@ spec:
   - name: web
     port: 80
     targetPort: 80
+    #指定nodePort为方便测试，在各环境中应注释此处nodePort避免端口造成冲突
     nodePort: 30003
